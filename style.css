@@ -1,0 +1,79 @@
+body {
+  text-align: center;
+}
+
+.title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #0075ff;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  margin-top: 30px;
+}
+
+.button:hover {
+  background: white;
+}
+
+.sound{
+  width:60px;
+  height:60px;
+  right: 50%;
+  margin-left: 15px;
+}
+
+/*navigation buttons */
+.taskBar {
+  position: fixed;
+  bottom: 25px;
+  left: 25%;
+  right: 25%;
+}
+
+.tbButton {
+  width: 30%;
+  height: 30%;
+}
+
+/* finished scherm css*/
+.checkmark {
+  width: 40%;
+  height: 40%;
+}
+
+.thumbsUp {
+  width: 300px;
+  height: 300px;
+  margin-top: 60px;
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+/* grow speaker button */
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.3); }
+
+.instructionImg {
+  width: 100%;
+  height: 100%;
+  padding-top: 25%;
+}
